@@ -8,5 +8,20 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{@render children()}
+<main class="page">
+  {@render children()}
+</main>
+
+<style>
+  /* Page padding */
+  .page {
+    padding: 16px; /* mobile */
+  }
+
+  @media (min-width: 900px) {
+    .page {
+      padding: 24px; /* desktop */
+    }
+  }
+</style>
 

@@ -7,18 +7,21 @@
   .nav {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    padding: 10px 12px;                 /* mobile */
-    position: relative;
+    align-items: baseline; 
     z-index: 10;
+    padding-bottom: 4px;
     border-bottom: 1px solid var(--color-highlight);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white; /* change if your bg isn't white */
   }
 
   a {
     font-family: var(--font-mono);
     font-size: 18px;                    /* mobile */
     text-transform: uppercase;
-    color: var(--color-primary);
+    color: var(--color-highlight);
     letter-spacing: 0.5px;
     text-decoration: none;
   }
@@ -29,8 +32,8 @@
 
   /* Desktop */
   @media (min-width: 900px) {
-    .nav {
-      padding: 16px 24px;             
+    .nav {    
+        padding-bottom: 6px;      
     }
 
     a {
