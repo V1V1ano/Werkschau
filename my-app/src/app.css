@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+/* ABC Gaisyr — Medium Italic */
+@font-face {
+    font-family: 'ABC Gaisyr';
+    src: url('/fonts/ABCGaisyr-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* ABC Diatype — Regular */
+@font-face {
+    font-family: 'ABC Diatype';
+    src: url("/fonts/ABCDiatypeMonoCondensed-Bold-Trial.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'ABC Diatype';
+    src: url("/fonts/ABCDiatypeMonoCondensed-Regular-Trial.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+:root {
+    --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+    --font-mono: 'ABC Diatype', monospace;
+    --font-headline: 'ABC Gaisyr', serif;
+
+    /* Colors */
+    --color-primary: #3D3D3D;
+    --color-secondary: #ADA8A8;
+    --color-highlight: #D02670;
+}
+
+/* Body typography */
+body {
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+/* H1 typography */
+h1 {
+    font-family: var(--font-headline);
+    color: var(--color-primary);
+    font-size: 48px;
+    line-height: 1.05;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Chapter intro (mono / UI voice) */
+.chapter-intro {
+    font-family: var(--font-mono);
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+/* Project headline (display voice) */
+.project-headline {
+    font-family: var(--font-headline);
+    color: var(--color-primary);
+    font-weight: 500;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+/* Highlight text (reading voice, but louder) */
+.highlight-text {
+    font-family: var(--font-body);
+    color: var(--color-primary);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* Desktop breakpoint */
+@media (min-width: 900px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    .chapter-intro {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .project-headline {
+        font-size: 48px;
+    }
+
+    .highlight-text {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
