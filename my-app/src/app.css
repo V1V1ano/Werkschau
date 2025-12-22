@@ -69,6 +69,19 @@ h1 {
 
 }
 
+.button-main {
+    color: var(--color-highlight);
+    font-family: var(--font-mono);
+    font-size: 18px;
+}
+
+.button-small {
+    color: var(--color-highlight);
+    font-family: var(--font-mono);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
 /* Project headline (display voice) */
 .project-headline {
     font-family: var(--font-headline);
@@ -86,6 +99,28 @@ h1 {
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
+}
+
+/* Sub-headline) */
+.sub-headline {
+    font-family: var(--font-headline);
+    color: var(--color-primary);
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.table-label{
+    color: var(--color-primary);
+    font-size: 16px;
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.table-value{
+    color: var(--color-primary);
+    font-size: 16px;
+    font-family: var(--font-mono);
 }
 
 /* Desktop breakpoint */
@@ -110,5 +145,26 @@ h1 {
     .highlight-text {
         font-size: 32px;
         line-height: 40px;
+    }
+
+    .sub-headline {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .button-main {
+        font-size: 24px;
+    }
+
+    .button-small {
+        font-size: 2px;
+    }
+
+    .table-label{
+        font-size: 18px;
+    }
+
+    .table-value{
+        font-size: 18;
     }
 }

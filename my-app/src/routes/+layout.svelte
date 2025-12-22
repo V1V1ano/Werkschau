@@ -1,6 +1,7 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
-	 import '../app.css';
+	import Footer from '$lib/components/Footer.svelte';
+	import '../app.css';
 	let { children } = $props();
 </script>
 
@@ -11,6 +12,8 @@
 <main class="page">
   {@render children()}
 </main>
+
+<Footer />
 
 <style>
   /* Page padding */
