@@ -44,7 +44,7 @@
             <div class="value stack">
                 <ButtonSmall href="/" type="internal">Works</ButtonSmall>
                 <ButtonSmall href="/about" type="internal">
-                    Internal
+                    About
                 </ButtonSmall>
             </div>
         </div>

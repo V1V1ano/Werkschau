@@ -34,7 +34,7 @@
     --font-headline: 'ABC Gaisyr', serif;
 
     /* Colors */
-    --color-primary: #3D3D3D;
+    --color-primary: #161616;
     --color-secondary: #ADA8A8;
     --color-highlight: #D02670;
 }
@@ -66,7 +66,6 @@ h1 {
     line-height: 22px;
     text-transform: uppercase;
     letter-spacing: 1px;
-
 }
 
 .button-main {
@@ -134,7 +133,7 @@ h1 {
     }
 
     .chapter-intro {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 24px;
     }
 
@@ -157,7 +156,7 @@ h1 {
     }
 
     .button-small {
-        font-size: 2px;
+        font-size: 24px;
     }
 
     .table-label{
