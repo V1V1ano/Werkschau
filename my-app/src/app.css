@@ -127,6 +127,13 @@ h1 {
     font-family: var(--font-mono);
 }
 
+.key-areas-text{
+    color: var(--color-primary);
+    font-family: var(--font-mono);
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
 /* Desktop breakpoint */
 @media (min-width: 900px) {
     body {
@@ -169,6 +176,10 @@ h1 {
     }
 
     .table-value{
-        font-size: 18;
+        font-size: 18px;
+    }
+
+    .key-areas-text{
+        font-size: 18px;
     }
 }

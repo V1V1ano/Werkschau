@@ -1,6 +1,7 @@
 <script>
     import NavHome from "$lib/components/nav/NavHome.svelte";
     import Button from "$lib/components/Buttons/Button.svelte";
+    import KeyArea from "$lib/components/KeyArea.svelte";
 </script>
 
 <NavHome />
@@ -36,19 +37,12 @@
         </div>
     </div>
 
-     <!-- Glipmse at work section -->
+    <!-- Glipmse at work section -->
     <div class="chapter">
         <div class="chapter-intro">&#123; A glimpse at my work &#125;</div>
         <div class="in-chapter">
-            <Button href="mailto:vivien.serve@gmail.com" type="external">
-                mail me: vivien.serve@gmail.com
-            </Button>
-            <Button
-                href="https://www.linkedin.com/in/vivien-serve-25aa4a17a/?originalSubdomain=de"
-                type="external"
-            >
-                or write a dm: LinkedIn
-            </Button>
+            <KeyArea variant="narratives" />
+            <KeyArea variant="conceptual" />
         </div>
     </div>
 </div>
