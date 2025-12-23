@@ -18,7 +18,7 @@
     justify-content: flex-end; /* content justified right */
     gap: 12px;
 
-    padding: 12px;            /* mobile */
+    padding: 8px;            /* mobile */
     border: 1px solid var(--color-highlight);
 
     color: var(--color-highlight);
