@@ -43,9 +43,11 @@
         <div class="chapter-intro">&#123; A glimpse at my work &#125;</div>
         <div class="in-chapter">
             <KeyArea variant="narratives" />
-            <PreviewFinished href="/about" title="data visualization for the news" context="internship DIE ZEIT" year="2025" imageSrc="https://img.freepik.com/vektoren-kostenlos/einfaches-vibrierendes-katzenquadrat-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80"/>
+            <PreviewFinished href="/about" title="Data visualization for the news" context="internship DIE ZEIT" year="2025" mediaType="video" posterSrc="https://img.freepik.com/vektoren-kostenlos/einfaches-vibrierendes-katzenquadrat-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80" videoSrcWebm="/proect-images/ZEIT/proteine.webm"/>
+        </div>
+        <div class="in-chapter">
             <KeyArea variant="conceptual" />
-            <PreviewFinished href="/about" title="ProLanes • Order to Cash" context="studies" year="2023/24" imageSrc="https://img.freepik.com/vektoren-kostenlos/einfaches-vibrierendes-katzenquadrat-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80"/>
+            <PreviewFinished href="/about" title="ProLanes • Order to Cash" context="studies" year="2023/24" mediaType="image" mediaSrc="/proect-images/ProLanes/Teaser.png"/>
         </div>
     </div>
 </div>
