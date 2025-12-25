@@ -113,6 +113,8 @@ h1 {
     line-height: 32px;
 }
 
+/* Table elements */
+
 .table-label{
     color: var(--color-primary);
     font-size: 16px;
@@ -127,12 +129,22 @@ h1 {
     font-family: var(--font-mono);
 }
 
+/* Graphic elements */
+
 .key-areas-text{
     color: var(--color-primary);
     font-family: var(--font-mono);
     font-size: 16px;
     text-transform: capitalize;
 }
+
+.key-areas-description{
+    color: var(--color-primary);
+    font-family: var(--font-mono);
+    font-size: 16px;
+    font-weight: 700;
+}
+
 
 /* Desktop breakpoint */
 @media (min-width: 900px) {

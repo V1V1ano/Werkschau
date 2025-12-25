@@ -3,6 +3,7 @@
     import Button from "$lib/components/Buttons/Button.svelte";
     import KeyArea from "$lib/components/KeyArea.svelte";
     import PreviewFinished from "$lib/components/preview/PreviewFinished.svelte";
+    import CardResponsibilities from "$lib/components/cards/CardResponsibilities.svelte";
 </script>
 
 <NavHome />
@@ -43,11 +44,49 @@
         <div class="chapter-intro">&#123; A glimpse at my work &#125;</div>
         <div class="in-chapter">
             <KeyArea variant="narratives" />
-            <PreviewFinished href="/about" title="Data visualization for the news" context="internship DIE ZEIT" year="2025" mediaType="video" posterSrc="https://img.freepik.com/vektoren-kostenlos/einfaches-vibrierendes-katzenquadrat-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80" videoSrcWebm="/proect-images/ZEIT/proteine.webm"/>
+            <PreviewFinished
+                href="/about"
+                title="Data visualization for the news"
+                context="internship DIE ZEIT"
+                year="2025"
+                mediaType="video"
+                posterSrc="https://img.freepik.com/vektoren-kostenlos/einfaches-vibrierendes-katzenquadrat-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80"
+                videoSrcWebm="/proect-images/ZEIT/proteine.webm"
+            />
         </div>
         <div class="in-chapter">
             <KeyArea variant="conceptual" />
-            <PreviewFinished href="/about" title="ProLanes • Order to Cash" context="studies" year="2023/24" mediaType="image" mediaSrc="/proect-images/ProLanes/Teaser.png"/>
+            <PreviewFinished
+                href="/about"
+                title="ProLanes • Order to Cash"
+                context="studies"
+                year="2023/24"
+                mediaType="image"
+                mediaSrc="/proect-images/ProLanes/Teaser.png"
+            />
+        </div>
+    </div>
+
+    <!-- Key Areas -->
+    <div class="chapter">
+        <div class="chapter-intro">&#123; Key Areas &#125;</div>
+        <div class="in-chapter">
+            <CardResponsibilities
+                text="&#123;A&#125; I design (and sometimes code)"
+                keyArea="conceptual"
+            />
+            <CardResponsibilities
+                text="&#123;B&#125; to create intruiging"
+                keyArea="ui"
+            />
+            <CardResponsibilities
+                text="&#123;C&#125; with a focus on"
+                keyArea="narratives"
+            />
+            <CardResponsibilities
+                text="&#123;D&#125; and interest in"
+                keyArea="speculative"
+            />
         </div>
     </div>
 </div>
@@ -56,7 +95,7 @@
     .content {
         display: flex;
         flex-direction: column;
-        gap: 38px;
+        gap: 48px;
     }
 
     .chapter {
