@@ -51,7 +51,7 @@
                 year="2025"
                 mediaType="video"
                 posterSrc="https://img.freepik.com/vektoren-kostenlos/einfaches-vibrierendes-katzenquadrat-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80"
-                videoSrcWebm="/proect-images/ZEIT/proteine.webm"
+                videoSrcWebm="/project-images/ZEIT/proteine.webm"
             />
         </div>
         <div class="in-chapter">
@@ -62,7 +62,7 @@
                 context="studies"
                 year="2023/24"
                 mediaType="image"
-                mediaSrc="/proect-images/ProLanes/Teaser.png"
+                mediaSrc="/project-images/ProLanes/Teaser.png"
             />
         </div>
     </div>
@@ -86,6 +86,44 @@
             <CardResponsibilities
                 text="&#123;D&#125; and interest in"
                 keyArea="speculative"
+            />
+        </div>
+    </div>
+
+    <!-- More Work -->
+    <div class="chapter">
+        <div class="chapter-intro">&#123; More work &#125;</div>
+        <div class="in-chapter">
+            <KeyArea variant="conceptual" />
+            <PreviewFinished
+                href="/about"
+                title="Co-op.Comm "
+                context="studies"
+                year="2023"
+                mediaType="image"
+                mediaSrc="/project-images/CoopComm/teaser.gif"
+            />
+        </div>
+        <div class="in-chapter">
+            <KeyArea variant="speculative" />
+            <PreviewFinished
+                href="/about"
+                title="From Phygital Layers to Fragmented Realities"
+                context="studies"
+                year="2023/24"
+                mediaType="image"
+                mediaSrc="/project-images/Phygital/teaser.png"
+            />
+        </div>
+        <div class="in-chapter">
+            <KeyArea variant="narratives" />
+            <PreviewFinished
+                href="/about"
+                title="The City as a Reading Room"
+                context="studies"
+                year=2024
+                mediaType="image"
+                mediaSrc="/project-images/ReadingRooms/big_picture.png"
             />
         </div>
     </div>
