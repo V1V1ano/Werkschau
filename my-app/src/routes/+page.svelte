@@ -2,6 +2,7 @@
     import NavHome from "$lib/components/nav/NavHome.svelte";
     import Button from "$lib/components/Buttons/Button.svelte";
     import KeyArea from "$lib/components/KeyArea.svelte";
+    import PreviewFinished from "$lib/components/preview/PreviewFinished.svelte";
 </script>
 
 <NavHome />
@@ -42,7 +43,9 @@
         <div class="chapter-intro">&#123; A glimpse at my work &#125;</div>
         <div class="in-chapter">
             <KeyArea variant="narratives" />
+            <PreviewFinished href="/about" title="data visualization for the news" context="internship DIE ZEIT" year="2025" imageSrc="https://img.freepik.com/vektoren-kostenlos/einfaches-vibrierendes-katzenquadrat-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80"/>
             <KeyArea variant="conceptual" />
+            <PreviewFinished href="/about" title="ProLanes • Order to Cash" context="studies" year="2023/24" imageSrc="https://img.freepik.com/vektoren-kostenlos/einfaches-vibrierendes-katzenquadrat-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80"/>
         </div>
     </div>
 </div>
