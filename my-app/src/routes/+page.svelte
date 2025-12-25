@@ -134,6 +134,7 @@
         display: flex;
         flex-direction: column;
         gap: 48px;
+        margin-bottom: 48px;
     }
 
     .chapter {

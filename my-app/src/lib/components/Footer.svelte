@@ -13,9 +13,11 @@
         </div>
     </div>
 
-    <Button href="mailto:vivien.serve@gmail.com" type="external">
-        mail me: vivien.serve@gmail.com
-    </Button>
+    <div class="button-wrapper">
+        <Button href="mailto:vivien.serve@gmail.com" type="external">
+            mail me: vivien.serve@gmail.com
+        </Button>
+    </div>
 
     <div class="divider"></div>
 
@@ -43,9 +45,7 @@
             <div class="table-label">PAGES</div>
             <div class="value stack">
                 <ButtonSmall href="/" type="internal">Works</ButtonSmall>
-                <ButtonSmall href="/about" type="internal">
-                    About
-                </ButtonSmall>
+                <ButtonSmall href="/about" type="internal">About</ButtonSmall>
             </div>
         </div>
 
@@ -70,9 +70,23 @@
 
 <style>
     .footer {
-        padding: 16px; /* mobile */
+        padding: 24px 16px 16px 16px; /* mobile */
         background: var(--color-primary);
         color: #ffffff;
+    }
+
+    .footer :global(.button-main) {
+        color: var(--color-highlight-footer);
+        border-color: var(--color-highlight-footer);
+    }
+
+    .footer :global(.button-small) {
+        color: var(--color-highlight-footer);
+        border-color: var(--color-highlight-footer);
+    }
+
+    .button-wrapper {
+        padding-bottom: 16px;
     }
 
     .table-label {
@@ -89,7 +103,7 @@
     }
 
     .top {
-        margin-bottom: 56px;
+        margin-bottom: 156px;
     }
 
     .sub-headline {

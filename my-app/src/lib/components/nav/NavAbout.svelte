@@ -10,11 +10,12 @@
     align-items: baseline; 
     z-index: 10;
     padding-bottom: 4px;
+    padding-top: 16px;
     border-bottom: 1px solid var(--color-highlight);
     position: sticky;
     top: 0;
     z-index: 100;
-    background: white; /* change if your bg isn't white */
+    background: rgba(255, 255, 255, 0.8);
   }
 
   a {
@@ -33,7 +34,8 @@
   /* Desktop */
   @media (min-width: 900px) {
     .nav {    
-        padding-bottom: 6px;      
+        padding-bottom: 6px;    
+        padding-top: 24px;      
     }
 
     a {
