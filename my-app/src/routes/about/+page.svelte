@@ -1,6 +1,6 @@
 <script>
   import NavAbout from "$lib/components/nav/NavAbout.svelte";
-  import PreviewFinished from "$lib/components/preview/PreviewFinished.svelte";
+  import PreviewUnfinished from "$lib/components/preview/PreviewUnfinished.svelte";
   import Button from "$lib/components/Buttons/Button.svelte";
   import KeyArea from "$lib/components/KeyArea.svelte";
 </script>
@@ -58,29 +58,34 @@
     <!-- Project grid is used to align content in a grid on desktop -->
     <div class="project-grid">
       <div class="in-chapter">
-        <KeyArea variant="narratives" />
-        <PreviewFinished
-          href="/about"
-          title="Data visualization for the news"
-          context="Internship DIE ZEIT"
-          year="2025"
-          mediaType="video"
-          posterSrc="https://img.freepik.com/vektoren-kostenlos/einfaches-vibrierendes-katzenquadrat-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80"
-          videoSrcWebm="/project-images/ZEIT/proteine.webm"
+        <KeyArea variant="speculative" />
+        <PreviewUnfinished
+          title="Navigating futures with data visualization → interpretation-visualization as speculative medium to navigate future phenomena"
+          context="Bachelor thesis"
+          mediaType="image"
+          mediaSrc="https://i1.sndcdn.com/artworks-WwWAK5ilqjIKiGyS-YBzzgA-t500x500.jpg"
         />
       </div>
       <div class="in-chapter">
-        <KeyArea variant="conceptual" />
-        <PreviewFinished
-          href="/about"
-          title="ProLanes • Order to Cash"
-          context="Studies"
-          year="2023/24"
+        <KeyArea variant="ui" />
+        <PreviewUnfinished
+          title="MichAIL – music recommendation meets explainable AI"
+          context="Personal project w/ Jacky & Jost"
           mediaType="image"
-          mediaSrc="/project-images/ProLanes/Teaser.png"
+          mediaSrc="https://i1.sndcdn.com/artworks-WwWAK5ilqjIKiGyS-YBzzgA-t500x500.jpg"
         />
       </div>
     </div>
+  </div>
+
+  <div class="chapter">
+    <div class="chapter-intro">&#123; Work experience &#125;</div>
+    <div class="in-chapter">MUSS NOCH GEMACHT WERDEN</div>
+  </div>
+
+  <div class="chapter">
+    <div class="chapter-intro">&#123; education &#125;</div>
+    <div class="in-chapter">MUSS NOCH GEMACHT WERDEN</div>
   </div>
 </div>
 
@@ -152,9 +157,18 @@
 
     .intro-grid {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 48px;
-      padding: 48px 0;
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-areas: "text image";
+    }
+
+    .intro-grid > .chapter {
+      grid-area: text;
+      max-width: 47vw;
+    }
+
+    .intro-grid > .intro-image {
+      grid-area: image;
+      justify-self: end;
     }
 
     .content {

@@ -244,6 +244,10 @@
             padding: 48px 0;
         }
 
+        .intro-grid .chapter {
+            max-width: 50vw;
+        }
+
         .intro-grid .contact {
             justify-self: end;
             align-self: flex-end;
