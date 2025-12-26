@@ -82,9 +82,9 @@
     </div>
 
     <!-- Key Areas -->
-    <div class="chapter">
+    <div class="chapter-key-areas">
         <div class="chapter-intro">&#123; Key Areas &#125;</div>
-        <div class="in-chapter">
+        <div class="in-chapter-cards">
             <CardResponsibilities
                 text="&#123;A&#125; I design (and sometimes code)"
                 keyArea="conceptual"
@@ -166,8 +166,14 @@
         gap: 18px;
     }
 
+    .chapter-key-areas {
+        display: flex;
+        flex-direction: column; /* vertical stacking */
+        gap: 18px;
+    }
+
     /* this needs to mimic chapter */
-     .project-grid {
+    .project-grid {
         display: flex;
         flex-direction: column;
         gap: 18px;
@@ -179,14 +185,19 @@
         gap: 8px;
     }
 
-   
+    /* For the responsibility cards, needs to mimic in-chapter */
+    .in-chapter-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
 
     @media (min-width: 900px) {
         .project-grid {
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
             align-items: start;
-            gap: 24px;
+            gap: 36px;
         }
 
         .chapter {
@@ -195,6 +206,35 @@
 
         .in-chapter {
             gap: 18px;
+        }
+
+        .chapter-key-areas {
+            /* height: 30vh; */
+            justify-content: space-between;
+        }
+
+        .in-chapter-cards {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 18px;
+            width: 100%;
+        }
+
+        .in-chapter-cards > :global(*) {
+            flex: 0 0 calc((93% - 18px) / 2); /* 2 columns */
+            min-width: 0;
+        }
+
+        @media (min-width: 1400px) {
+            .in-chapter-cards {
+                flex-wrap: nowrap; /* force single row */
+            }
+
+            .in-chapter-cards > :global(*) {
+                flex: 1 1 0; /* equal widths across the row */
+                min-width: 0;
+            }
         }
 
         .intro-grid {
@@ -214,17 +254,17 @@
             gap: 12px;
         }
 
-        .intro-grid .chapter > :last-child {
-            align-self: flex-end;
-        }
-
         .content {
             gap: 96px;
             margin-bottom: 96px;
         }
 
         .more-about-wrap {
-            align-self: flex-end;
+            align-self: flex-start;
+        }
+
+        .more-about-wrap :global(.button-main){
+            min-width: 0px;
         }
     }
 </style>

@@ -22,38 +22,48 @@
     <div class="divider"></div>
 
     <div class="info-grid">
-        <div class="row">
-            <div class="table-label">SOCIAL</div>
-            <div class="value">
-                <ButtonSmall
-                    href="https://www.linkedin.com/in/vivien-serve-25aa4a17a/?originalSubdomain=de"
-                    type="external"
-                >
-                    LinkedIn
-                </ButtonSmall>
+        <div class="row-group">
+            <div class="row">
+                <div class="table-label">SOCIAL</div>
+                <div class="value">
+                    <ButtonSmall
+                        href="https://www.linkedin.com/in/vivien-serve-25aa4a17a/?originalSubdomain=de"
+                        type="external"
+                    >
+                        LinkedIn
+                    </ButtonSmall>
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="table-label">LOCATION</div>
-            <div class="table-value">Beautiful Potsdam, Germany</div>
+            <div class="row">
+                <div class="table-label">LOCATION</div>
+                <div class="table-value">Beautiful Potsdam, Germany</div>
+            </div>
         </div>
 
         <div class="divider"></div>
 
-        <div class="row">
-            <div class="table-label">PAGES</div>
-            <div class="value stack">
-                <ButtonSmall href="/" type="internal">Works</ButtonSmall>
-                <ButtonSmall href="/about" type="internal">About</ButtonSmall>
+        <div class="row-group">
+            <div class="row">
+                <div class="table-label">PAGES</div>
+                <div class="value stack">
+                    <ButtonSmall href="/" type="internal">Works</ButtonSmall>
+                    <ButtonSmall href="/about" type="internal"
+                        >About</ButtonSmall
+                    >
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="table-label">Must haves</div>
-            <div class="value stack">
-                <ButtonSmall href="/" type="internal">Legal Notice</ButtonSmall>
-                <ButtonSmall href="/about" type="internal">Privacy</ButtonSmall>
+            <div class="row">
+                <div class="table-label">Must haves</div>
+                <div class="value stack">
+                    <ButtonSmall href="/" type="internal"
+                        >Legal Notice</ButtonSmall
+                    >
+                    <ButtonSmall href="/about" type="internal"
+                        >Privacy</ButtonSmall
+                    >
+                </div>
             </div>
         </div>
 
@@ -115,7 +125,8 @@
     }
 
     .info-grid {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         gap: 16px;
         padding-top: 16px;
     }
@@ -143,7 +154,7 @@
 
     @media (min-width: 900px) {
         .footer {
-            padding: 24px; /* desktop */
+            padding: 48px;
         }
 
         .project-headline {
@@ -152,6 +163,27 @@
 
         .stack {
             gap: 2px;
+        }
+
+        .info-grid {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .row-group {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .button-wrapper {
+            display: flex;
+            justify-content: flex-end; 
+            padding-bottom: 16px;
+        }
+
+        .top {
+            margin-bottom: 244px;
         }
     }
 </style>

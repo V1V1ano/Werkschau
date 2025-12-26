@@ -36,6 +36,7 @@
     .button-main {
       padding: 10px 16px;          /* desktop */
       max-width: 480px;
+      min-width: 350px;
     }
   }
 </style>
