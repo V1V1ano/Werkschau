@@ -53,6 +53,7 @@
     <!-- Glipmse at work section -->
     <div class="chapter">
         <div class="chapter-intro">&#123; A glimpse at my work &#125;</div>
+        <!-- Project grid is used to align content in a grid on desktop -->
         <div class="project-grid">
             <div class="in-chapter">
                 <KeyArea variant="narratives" />
@@ -152,9 +153,23 @@
         margin-bottom: 48px;
     }
 
+    /* This needs to mimic content */
+    .intro-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+
     .chapter {
         display: flex;
         flex-direction: column; /* vertical stacking */
+        gap: 18px;
+    }
+
+    /* this needs to mimic chapter */
+     .project-grid {
+        display: flex;
+        flex-direction: column;
         gap: 18px;
     }
 
@@ -163,6 +178,8 @@
         flex-direction: column;
         gap: 8px;
     }
+
+   
 
     @media (min-width: 900px) {
         .project-grid {

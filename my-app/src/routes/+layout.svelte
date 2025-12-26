@@ -3,6 +3,30 @@
 	import Footer from "$lib/components/Footer.svelte";
 	import "../app.css";
 	let { children } = $props();
+
+	// Make text breaks prettier
+	import { onMount } from "svelte";
+	import { afterNavigate } from "$app/navigation";
+	import balanceText from "balance-text";
+
+	const selector = ".page .highlight-text, .page .body";
+
+	function runBalance() {
+		balanceText(document.querySelectorAll(selector));
+	}
+
+	onMount(() => {
+		runBalance();
+
+		const onResize = () => runBalance();
+		window.addEventListener("resize", onResize);
+
+		return () => window.removeEventListener("resize", onResize);
+	});
+
+	afterNavigate(() => {
+		runBalance();
+	});
 </script>
 
 <svelte:head>
