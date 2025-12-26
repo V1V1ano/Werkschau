@@ -53,9 +53,7 @@
 
   @media (min-width: 900px) {
     .button-main {
-      padding: 14px 16px;
-      max-width: 480px;
-      min-width: 350px;
+      padding: 10px 16px; 
     }
   }
 </style>

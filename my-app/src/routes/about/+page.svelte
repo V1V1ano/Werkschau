@@ -30,37 +30,39 @@
   </div>
 
   <!-- Information about what and who -->
-  <div class="chapter">
-    <div class="chapter-intro">&#123; Skills &#125;</div>
-    <div class="in-chapter">
-      UI / UX Design · Figma and Adobe CC <br /> Service Design · User–centric
-      ideation <br />
-      Front–end development · SvelteKit
+  <div class="column-on-desktop">
+    <div class="chapter">
+      <div class="chapter-intro">&#123; Skills &#125;</div>
+      <div class="in-chapter">
+        UI / UX Design · Figma and Adobe CC <br /> Service Design · User–centric
+        ideation <br />
+        Front–end development · SvelteKit
+      </div>
     </div>
-  </div>
 
-  <div class="chapter">
-    <div class="chapter-intro">&#123; Milestones &#125;</div>
-    <div class="in-chapter">
-      <MilestoneShuffle
-        headline="Bachelor in Potsdam, at FH;P (hopefully)"
-        buttonLabel="Click to Shuffle how this affected me"
-        items={[
-          "Didn’t like pizza before. Now, I like it (most of the times I guess)",
-          "Learned to trust iteration over the ‘perfect idea’.",
-          "Discovered: writing is also interface design.",
-          "Got better at saying no to shiny features (sometimes).",
-        ]}
-      />
+    <div class="chapter chapter--narrow">
+      <div class="chapter-intro">&#123; People I &lt;3 working with &#125;</div>
+      <div class="in-chapter">
+        Jacky Grob <br />
+        Jost Götte <br />
+        Mauzen Crew <br />
+      </div>
     </div>
-  </div>
 
-  <div class="chapter">
-    <div class="chapter-intro">&#123; People I xx working with &#125;</div>
-    <div class="in-chapter">
-      Jacky Grob <br />
-      Jost Götte <br />
-      Mauzen Crew <br />
+    <div class="chapter">
+      <div class="chapter-intro">&#123; Milestones &#125;</div>
+      <div class="in-chapter">
+        <MilestoneShuffle
+          headline="Bachelor in Potsdam, at FH;P (hopefully)"
+          buttonLabel="Click to Shuffle how this affected me"
+          items={[
+            "Didn’t like pizza before. Now, I like it (most of the times I guess)",
+            "Learned to trust iteration over the ‘perfect idea’.",
+            "Discovered: writing is also interface design.",
+            "Got better at saying no to shiny features (sometimes).",
+          ]}
+        />
+      </div>
     </div>
   </div>
 
@@ -90,78 +92,80 @@
     </div>
   </div>
 
-  <!-- Relevant work experience -->
-  <div class="chapter">
-    <div class="chapter-intro">&#123; selected Work experience &#125;</div>
-    <div class="in-chapter">
-      <CardCV
-        from="2025"
-        to="NOW"
-        title="Data visualization designer"
-        place="@ DIE ZEIT"
-        logoSrc="/logos/Zeit.png"
-        linkHref="https://www.zeit.de/autoren/S/Vivien_Serve/index"
-        linkLabel="Author Profile"
-        linkType="external"
-      />
-      <CardCV
-        from="2023"
-        to="NOW"
-        title="Data visualization designer"
-        place="@ Datawrapper"
-        logoSrc="/logos/Datawrapper.png"
-        linkHref="https://www.datawrapper.de/blog/say-hi-to-vivien"
-        linkLabel="Blog Article"
-        linkType="external"
-      />
-      <CardCV
-        from="2021"
-        to="2023"
-        title="Service Designer and Front-end"
-        place="@ Helmholtz Metadata Collaboration"
-        logoSrc="/logos/hmc.png"
-        linkHref="https://datascience.codata.org/articles/10.5334/dsj-2024-041"
-        linkLabel="Paper"
-        linkType="external"
-      />
+  <div class="column-on-desktop">
+    <!-- Relevant work experience -->
+    <div class="chapter">
+      <div class="chapter-intro">&#123; selected Work experience &#125;</div>
+      <div class="in-chapter">
+        <CardCV
+          from="2025"
+          to="NOW"
+          title="Data visualization designer"
+          place="@ DIE ZEIT"
+          logoSrc="/logos/Zeit.png"
+          linkHref="https://www.zeit.de/autoren/S/Vivien_Serve/index"
+          linkLabel="Author Profile"
+          linkType="external"
+        />
+        <CardCV
+          from="2023"
+          to="NOW"
+          title="Data visualization designer"
+          place="@ Datawrapper"
+          logoSrc="/logos/Datawrapper.png"
+          linkHref="https://www.datawrapper.de/blog/say-hi-to-vivien"
+          linkLabel="Blog Article"
+          linkType="external"
+        />
+        <CardCV
+          from="2021"
+          to="2023"
+          title="Service Designer and Front-end"
+          place="@ Helmholtz Metadata Collaboration"
+          logoSrc="/logos/hmc.png"
+          linkHref="https://datascience.codata.org/articles/10.5334/dsj-2024-041"
+          linkLabel="Paper"
+          linkType="external"
+        />
+      </div>
     </div>
-  </div>
 
-  <!-- Education -->
-  <div class="chapter">
-    <div class="chapter-intro">&#123; education &#125;</div>
-    <div class="in-chapter">
-      <CardCV
-        from="2021"
-        to="NOW"
-        title="Interface Design"
-        place="@ University of Applied Sciences Potsdam"
-        logoSrc="/logos/FHP.png"
-      />
-      <CardCV
-        from="2021"
-        to="NOW"
-        title="Interaction Design"
-        place="@ National Taipei University of Technology"
-        logoSrc="/logos/taipei.png"
-      />
+    <!-- Education -->
+    <div class="chapter">
+      <div class="chapter-intro">&#123; education &#125;</div>
+      <div class="in-chapter">
+        <CardCV
+          from="2021"
+          to="NOW"
+          title="Interface Design"
+          place="@ University of Applied Sciences Potsdam"
+          logoSrc="/logos/FHP.png"
+        />
+        <CardCV
+          from="2021"
+          to="NOW"
+          title="Interaction Design"
+          place="@ National Taipei University of Technology"
+          logoSrc="/logos/taipei.png"
+        />
+      </div>
     </div>
-  </div>
 
-  <!-- Education -->
-  <div class="chapter">
-    <div class="chapter-intro">&#123; education &#125;</div>
-    <div class="in-chapter">
-      <CardCV
-        from="2021"
-        to="NOW"
-        title="Mauzen Festival"
-        place="w/ Garzelice e.V. (Founding member & deputy cash auditor)"
-        logoSrc="/logos/mauzen.png"
-        linkHref="https://mauzen-festival.de/"
-        linkLabel="Website"
-        linkType="external"
-      />
+    <!-- Fun -->
+    <div class="chapter">
+      <div class="chapter-intro">&#123; education &#125;</div>
+      <div class="in-chapter">
+        <CardCV
+          from="2021"
+          to="NOW"
+          title="Mauzen Festival"
+          place="w/ Garzelice e.V. (Founding member & deputy cash auditor)"
+          logoSrc="/logos/mauzen.png"
+          linkHref="https://mauzen-festival.de/"
+          linkLabel="Website"
+          linkType="external"
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -251,6 +255,24 @@
     .content {
       gap: 96px;
       margin-bottom: 96px;
+    }
+
+    .column-on-desktop {
+      display: flex;
+      width: 100%;
+      gap: 36px;
+      align-items: start;
+    }
+
+    /* default columns */
+    .column-on-desktop > .chapter {
+      flex: 1 1 0;
+      min-width: 0;
+    }
+
+    /* 👇 make only the people column smaller */
+    .column-on-desktop > .chapter--narrow {
+      flex: 0.7 1 0; /* tweak this value */
     }
   }
 </style>

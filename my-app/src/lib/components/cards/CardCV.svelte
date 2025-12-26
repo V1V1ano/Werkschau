@@ -83,6 +83,10 @@
         object-fit: contain;
     }
 
+    .card-cv :global(.button-main) {
+        min-width: 0px;
+    }
+
     .divider {
         height: 1px;
         background: var(--color-primary);
