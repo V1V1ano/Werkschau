@@ -178,6 +178,13 @@
     margin: 48px 0px;
   }
 
+  /* needs to mimic content, because just used for column layout on mobile */
+  .column-on-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
   /* This needs to mimic content */
   .intro-grid {
     display: flex;
@@ -260,6 +267,7 @@
 
     .column-on-desktop {
       display: flex;
+      flex-direction: row;
       width: 100%;
       gap: 36px;
       align-items: start;
