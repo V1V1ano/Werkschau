@@ -94,7 +94,7 @@
 
     @media (min-width: 900px) {
         .card-cv {
-            padding: 18px;
+            padding: 14px;
         }
     }
 </style>

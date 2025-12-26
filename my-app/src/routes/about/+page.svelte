@@ -13,7 +13,7 @@
   <div class="intro-grid">
     <div class="intro-image">
       <img
-        src="https://blogs.urz.uni-halle.de/memekultur/files/elementor/thumbs/Meme2-oxj1km9nq1ecvybvcqox9hi8q6sbj6pnh6r4ugwq00.jpg"
+        src="/profile.jpg"
         alt="Portrait of Vivien Serve"
       />
     </div>
@@ -54,7 +54,7 @@
       <div class="in-chapter">
         <MilestoneShuffle
           headline="Bachelor in Potsdam, at FH;P (hopefully)"
-          buttonLabel="Click to Shuffle how this affected me"
+          buttonLabel="Click to Shuffle my Discoveries"
           items={[
             "Didn’t like pizza before. Now, I like it (most of the times I guess)",
             "Learned to trust iteration over the ‘perfect idea’.",
@@ -68,7 +68,7 @@
 
   <!-- Projects I'm working on -->
   <div class="chapter">
-    <div class="chapter-intro">&#123; A glimpse at my work &#125;</div>
+    <div class="chapter-intro">&#123; What I'm currently working on &#125;</div>
     <!-- Project grid is used to align content in a grid on desktop -->
     <div class="project-grid">
       <div class="in-chapter">
@@ -77,7 +77,7 @@
           title="Navigating futures with data visualization → interpretation-visualization as speculative medium to navigate future phenomena"
           context="Bachelor thesis"
           mediaType="image"
-          mediaSrc="https://i1.sndcdn.com/artworks-WwWAK5ilqjIKiGyS-YBzzgA-t500x500.jpg"
+          mediaSrc="/project-images/Unfinished/bachelorthesis.png"
         />
       </div>
       <div class="in-chapter">
@@ -86,7 +86,7 @@
           title="MichAIL – music recommendation meets explainable AI"
           context="Personal project w/ Jacky & Jost"
           mediaType="image"
-          mediaSrc="https://i1.sndcdn.com/artworks-WwWAK5ilqjIKiGyS-YBzzgA-t500x500.jpg"
+          mediaSrc="/project-images/Unfinished/michail.png"
         />
       </div>
     </div>
@@ -240,6 +240,7 @@
       display: grid;
       grid-template-columns: minmax(0, 1fr) auto;
       grid-template-areas: "text image";
+      padding-bottom: 192px;
     }
 
     .intro-grid > .chapter {
