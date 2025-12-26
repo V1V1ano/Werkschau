@@ -25,7 +25,7 @@
 
 	@media (min-width: 900px) {
 		.page {
-			padding: 24px; /* desktop */
+			padding: 24px 48px;
 		}
 	}
 </style>

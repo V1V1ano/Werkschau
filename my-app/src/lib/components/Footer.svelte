@@ -80,6 +80,10 @@
         border-color: var(--color-highlight-footer);
     }
 
+    .footer :global(.button-main:hover) {
+        color: var(--color-primary);
+    }
+
     .footer :global(.button-small) {
         color: var(--color-highlight-footer);
         border-color: var(--color-highlight-footer);
@@ -144,6 +148,10 @@
 
         .project-headline {
             padding-bottom: 24px;
+        }
+
+        .stack {
+            gap: 2px;
         }
     }
 </style>

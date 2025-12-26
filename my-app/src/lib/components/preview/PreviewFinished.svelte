@@ -116,4 +116,22 @@
     height: 1px;
     background: var(--color-primary);
   }
+
+  @media (min-width: 900px) {
+    .click-arrow {
+        font-size: 24px;
+        right: 18px;
+        bottom: 8px;   
+    }
+
+    .preview {
+        gap: 18px;
+    }
+
+    .info-grid{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+  }
 </style>

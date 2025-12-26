@@ -29,12 +29,13 @@
   /* buttons are always "hover color" */
   .button-main:hover {
     background: var(--color-highlight);
-    color: var(--color-primary);
+    color: white;
   }
 
   @media (min-width: 900px) {
     .button-main {
-      padding: 16px;          /* desktop */
+      padding: 10px 16px;          /* desktop */
+      max-width: 480px;
     }
   }
 </style>

@@ -159,7 +159,7 @@ h1 {
     }
 
     .chapter-intro {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 24px;
     }
 
@@ -168,8 +168,8 @@ h1 {
     }
 
     .highlight-text {
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 28px;
+        line-height: 36px;
     }
 
     .sub-headline {
@@ -178,19 +178,20 @@ h1 {
     }
 
     .button-main {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .button-small {
-        font-size: 24px;
+        font-size: 18px;
+        letter-spacing: 1px;
     }
 
     .table-label{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .table-value{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .key-areas-text{
