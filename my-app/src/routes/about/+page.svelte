@@ -3,6 +3,7 @@
   import PreviewUnfinished from "$lib/components/preview/PreviewUnfinished.svelte";
   import KeyArea from "$lib/components/KeyArea.svelte";
   import CardCV from "$lib/components/cards/CardCV.svelte";
+  import MilestoneShuffle from "$lib/components/MilestoneShuffle.svelte";
 </script>
 
 <NavAbout />
@@ -40,7 +41,18 @@
 
   <div class="chapter">
     <div class="chapter-intro">&#123; Milestones &#125;</div>
-    <div class="in-chapter">MUSS NOCH GEMACHT WERDEN</div>
+    <div class="in-chapter">
+      <MilestoneShuffle
+        headline="Bachelor in Potsdam, at FH;P (hopefully)"
+        buttonLabel="Click to Shuffle how this affected me"
+        items={[
+          "Didn’t like pizza before. Now, I like it (most of the times I guess)",
+          "Learned to trust iteration over the ‘perfect idea’.",
+          "Discovered: writing is also interface design.",
+          "Got better at saying no to shiny features (sometimes).",
+        ]}
+      />
+    </div>
   </div>
 
   <div class="chapter">
