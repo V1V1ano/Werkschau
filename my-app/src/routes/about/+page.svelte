@@ -1,8 +1,8 @@
 <script>
   import NavAbout from "$lib/components/nav/NavAbout.svelte";
   import PreviewUnfinished from "$lib/components/preview/PreviewUnfinished.svelte";
-  import Button from "$lib/components/Buttons/Button.svelte";
   import KeyArea from "$lib/components/KeyArea.svelte";
+  import CardCV from "$lib/components/cards/CardCV.svelte";
 </script>
 
 <NavAbout />
@@ -80,7 +80,18 @@
 
   <div class="chapter">
     <div class="chapter-intro">&#123; Work experience &#125;</div>
-    <div class="in-chapter">MUSS NOCH GEMACHT WERDEN</div>
+    <div class="in-chapter">
+      <CardCV
+        from="2025"
+        to="NOW"
+        title="Data visualization designer"
+        place="@ DIE ZEIT"
+        logoSrc="/logos/Zeit.png"
+        linkHref="https://www.zeit.de/autoren/S/Vivien_Serve/index"
+        linkLabel="Author Profile"
+        linkType="external"
+      />
+    </div>
   </div>
 
   <div class="chapter">
