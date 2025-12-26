@@ -78,8 +78,9 @@
     </div>
   </div>
 
+  <!-- Relevant work experience -->
   <div class="chapter">
-    <div class="chapter-intro">&#123; Work experience &#125;</div>
+    <div class="chapter-intro">&#123; selected Work experience &#125;</div>
     <div class="in-chapter">
       <CardCV
         from="2025"
@@ -91,12 +92,65 @@
         linkLabel="Author Profile"
         linkType="external"
       />
+      <CardCV
+        from="2023"
+        to="NOW"
+        title="Data visualization designer"
+        place="@ Datawrapper"
+        logoSrc="/logos/Datawrapper.png"
+        linkHref="https://www.datawrapper.de/blog/say-hi-to-vivien"
+        linkLabel="Blog Article"
+        linkType="external"
+      />
+      <CardCV
+        from="2021"
+        to="2023"
+        title="Service Designer and Front-end"
+        place="@ Helmholtz Metadata Collaboration"
+        logoSrc="/logos/hmc.png"
+        linkHref="https://datascience.codata.org/articles/10.5334/dsj-2024-041"
+        linkLabel="Paper"
+        linkType="external"
+      />
     </div>
   </div>
 
+  <!-- Education -->
   <div class="chapter">
     <div class="chapter-intro">&#123; education &#125;</div>
-    <div class="in-chapter">MUSS NOCH GEMACHT WERDEN</div>
+    <div class="in-chapter">
+      <CardCV
+        from="2021"
+        to="NOW"
+        title="Interface Design"
+        place="@ University of Applied Sciences Potsdam"
+        logoSrc="/logos/FHP.png"
+      />
+      <CardCV
+        from="2021"
+        to="NOW"
+        title="Interaction Design"
+        place="@ National Taipei University of Technology"
+        logoSrc="/logos/taipei.png"
+      />
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="chapter">
+    <div class="chapter-intro">&#123; education &#125;</div>
+    <div class="in-chapter">
+      <CardCV
+        from="2021"
+        to="NOW"
+        title="Mauzen Festival"
+        place="w/ Garzelice e.V. (Founding member & deputy cash auditor)"
+        logoSrc="/logos/mauzen.png"
+        linkHref="https://mauzen-festival.de/"
+        linkLabel="Website"
+        linkType="external"
+      />
+    </div>
   </div>
 </div>
 

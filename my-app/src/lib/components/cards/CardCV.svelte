@@ -20,7 +20,7 @@
         <div class="table-label">
             {from}
             {#if to}
-                &nbsp;–&nbsp;{to}
+                –&nbsp;{to}
             {/if}
         </div>
 
