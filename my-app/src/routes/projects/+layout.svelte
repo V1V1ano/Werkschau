@@ -11,15 +11,17 @@
 </div>
 
 <style>
-   .outer-gaps{
+  .outer-gaps {
     display: flex;
     flex-direction: column;
-    gap: 38px;
-   }
+    gap: 48px;
+    margin-bottom: 48px;
+  }
 
-   @media (min-width: 900px) {
+  @media (min-width: 900px) {
     .outer-gaps {
       gap: 64px;
+      margin-bottom: 96px;
     }
-   }
+  }
 </style>

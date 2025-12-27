@@ -2,7 +2,7 @@
     import Button from "../Buttons/Button.svelte";
 
     // optional content parts
-    export let body: string | null = null;
+    export let body: string | string[] | null = null;
     export let highlight: string | null = null;
 
     // optional quote + source
@@ -25,17 +25,27 @@
     {/if}
 
     {#if highlight}
-        <div class="big-text-wrapper">
+        <div class="margin-wrapper">
             <div class="highlight-text">{highlight}</div>
         </div>
     {/if}
 
     {#if body}
-        <div class="body">{body}</div>
+        <div class="margin-wrapper">
+            {#if Array.isArray(body)}
+                {#each body as paragraph}
+                    <div class="body">{paragraph}</div>
+                {/each}
+            {:else}
+                <div class="body">{body}</div>
+            {/if}
+        </div>
     {/if}
 
     {#if linkHref && linkLabel}
-        <Button href={linkHref} type="external">{linkLabel}</Button>
+        <div class="button-wrap">
+            <Button href={linkHref} type="external">{linkLabel}</Button>
+        </div>
     {/if}
 </div>
 
@@ -43,17 +53,43 @@
     .project-text {
         display: flex;
         flex-direction: column;
-        gap: 12px;
+        gap: 16px;
     }
 
-    .big-text-wrapper {
+    .margin-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
         margin-bottom: 32px;
     }
 
     .quote {
-        margin:  0 0 32px 0;
+        margin: 0 0 32px 0;
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 16px;
+    }
+
+    .button-wrap {
+        display: flex; /* so we can justify */
+        align-self: flex-end;
+    }
+
+    @media (min-width: 900px) {
+        .button-wrap :global(.button-main) {
+            min-width: 0;
+        }
+
+        .margin-wrapper {
+            margin-bottom: 40px;
+        }
+
+        .project-text {
+            gap: 16px;
+        }
+
+        .quote {
+            gap: 12px;
+        }
     }
 </style>

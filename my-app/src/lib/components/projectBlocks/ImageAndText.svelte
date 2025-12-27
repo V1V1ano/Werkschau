@@ -12,7 +12,7 @@
     export let caption: string | null = null;
 
     // text meta
-    export let body: string | null = null;
+    export let body: string | string[] | null = null;
     export let highlight: string | null = null;
     export let quote: string | null = null;
     export let quoteSource: string | null = null;
