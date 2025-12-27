@@ -78,6 +78,7 @@ h1 {
     color: var(--color-highlight);
     font-family: var(--font-mono);
     font-size: 18px;
+    text-transform: capitalize;
 }
 
 .button-small {
