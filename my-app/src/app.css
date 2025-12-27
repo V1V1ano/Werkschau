@@ -39,8 +39,8 @@ html, body {
     --font-headline: 'ABC Gaisyr', serif;
 
     /* Colors */
-    --color-primary: #161616;
-    --color-secondary: #ADA8A8;
+    --color-primary: #262626;
+    --color-secondary: #a8a8a8;
     --color-highlight: #D02670;
     --color-highlight-footer: #EE5396;
 }
@@ -145,6 +145,29 @@ h1 {
     font-family: var(--font-mono);
     font-size: 16px;
     font-weight: 700;
+}
+
+/* Image text */
+
+.caption {
+    font-family: var(--font-mono);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.explanatory-tag{
+    font-family: var(--font-mono);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.creator-tag{
+    font-family: var(--font-mono);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
 }
 
 

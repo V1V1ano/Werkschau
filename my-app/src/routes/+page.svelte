@@ -58,7 +58,7 @@
             <div class="in-chapter">
                 <KeyArea variant="narratives" />
                 <PreviewFinished
-                    href="/about"
+                    href="/projects/phygital"
                     title="Data visualization for the news"
                     context="Internship DIE ZEIT"
                     year="2025"
