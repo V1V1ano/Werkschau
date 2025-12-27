@@ -69,8 +69,10 @@
     }
 
     .caption-wrapper {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr auto; /* text | arrow */
+        gap: 8px;
+        align-items: start;
         padding-right: 2px;
     }
 
