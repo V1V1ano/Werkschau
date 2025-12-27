@@ -65,7 +65,7 @@
         right: 12px;
         bottom: 12px;
         padding: 0px 6px;
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.6);
     }
 
     .caption-wrapper {

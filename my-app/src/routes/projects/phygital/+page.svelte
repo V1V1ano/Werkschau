@@ -3,6 +3,7 @@
     import ImageAndText from "$lib/components/projectBlocks/ImageAndText.svelte";
     import TextAndText from "$lib/components/projectBlocks/TextAndText.svelte";
     import ImageAndImage from "$lib/components/projectBlocks/ImageAndImage.svelte";
+    import NextProjectTeaser from "$lib/components/projectBlocks/NextProjectTeaser.svelte";
 </script>
 
 <div class="project">
@@ -51,7 +52,12 @@
         rightSrc="https://wallpapers.com/images/featured/gojo-satoru-pictures-8sz62hlsg1epni6l.jpg"
         rightCaption="Different stakeholders rely on omnipresent sensory-altering techniques in different ways."
     />
-    
+
+    <NextProjectTeaser
+        href="/about"
+        src="https://i.pinimg.com/736x/d0/82/31/d082311ac3b94b11708e0dc82793bc84.jpg"
+        tag="test"
+    />
 </div>
 
 <style>

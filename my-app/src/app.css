@@ -175,9 +175,10 @@ h1 {
 
 /* Desktop breakpoint */
 @media (min-width: 900px) {
-    body {
+    /* body {
         font-size: 20px;
-    }
+        line-height: 28px;
+    } */
 
     h1 {
         font-size: 64px;
