@@ -16,7 +16,7 @@ html, body {
 
 /* ABC Diatype — Regular */
 @font-face {
-    font-family: 'ABC Diatype';
+    font-family: 'ABC Diatype Mono';
     src: url("/fonts/ABCDiatypeMonoCondensed-Bold-Trial.woff2") format('woff2');
     font-weight: 700;
     font-style: normal;
@@ -25,7 +25,7 @@ html, body {
 }
 
 @font-face {
-    font-family: 'ABC Diatype';
+    font-family: 'ABC Diatype Mono';
     src: url("/fonts/ABCDiatypeMonoCondensed-Regular-Trial.woff2") format('woff2');
     font-weight: 400;
     font-style: normal;
@@ -33,9 +33,37 @@ html, body {
 
 }
 
+@font-face {
+    font-family: 'ABC Diatype Semi-mono';
+    src: url("/fonts/ABCDiatypeSemi-MonoCondensed-Regular-Trial.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'ABC Diatype Body';
+    src: url("/fonts/ABCDiatype-Regular-Trial.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'ABC Diatype Body';
+    src: url("/fonts/ABCDiatype-Medium-Trial.woff22") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+
+}
+
 :root {
-    --font-body: 'IBM Plex Sans', system-ui, sans-serif;
-    --font-mono: 'ABC Diatype', monospace;
+    --font-body: 'ABC Diatype Body', system-ui, sans-serif;
+    --font-mono: 'ABC Diatype Mono', monospace;
+    --font-semi-mono: 'ABC Diatype Semi-mono', sans-serif;
     --font-headline: 'ABC Gaisyr', serif;
 
     /* Colors */
@@ -76,14 +104,14 @@ h1 {
 
 .button-main {
     color: var(--color-highlight);
-    font-family: var(--font-mono);
+    font-family: var(--font-semi-mono);
     font-size: 18px;
     text-transform: capitalize;
 }
 
 .button-small {
     color: var(--color-highlight);
-    font-family: var(--font-mono);
+    font-family: var(--font-semi-mono);
     font-size: 18px;
     text-transform: uppercase;
 }
@@ -120,7 +148,7 @@ h1 {
 .table-label{
     color: var(--color-primary);
     font-size: 16px;
-    font-family: var(--font-mono);
+    font-family: var(--font-semi-mono);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -129,14 +157,14 @@ h1 {
     color: var(--color-primary);
     font-size: 16px;
     line-height: 24px;
-    font-family: var(--font-mono);
+    font-family: var(--font-semi-mono);
 }
 
 /* Graphic elements */
 
 .key-areas-text{
     color: var(--color-primary);
-    font-family: var(--font-mono);
+    font-family: var(--font-semi-mono);
     font-size: 16px;
     text-transform: capitalize;
 }
@@ -159,14 +187,14 @@ h1 {
 }
 
 .explanatory-tag{
-    font-family: var(--font-mono);
+    font-family: var(--font-semi-mono);
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .creator-tag{
-    font-family: var(--font-mono);
+    font-family: var(--font-semi-mono);
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1.2px;
