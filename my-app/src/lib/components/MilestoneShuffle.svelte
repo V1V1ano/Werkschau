@@ -27,7 +27,7 @@
     <ButtonAction type="internal" on:click={shuffle}>
         {buttonLabel}
     </ButtonAction>
-    <div class="sub-headline">{prefix}{items[index]}</div>
+    <div class="shuffle-text">{prefix}{items[index]}</div>
 </div>
 
 <style>
@@ -37,7 +37,18 @@
         gap: 18px;
     }
 
-    .sub-headline {
+    .shuffle-text {
         color: var(--color-highlight);
+        font-family: var(--font-headline);
+        font-size: 18px;
+        letter-spacing: 0.2px;
+    }
+
+    @media (min-width: 900px) {
+        .shuffle-text {
+            font-size: 20px;
+            line-height: 29px;
+            letter-spacing: 0.3px;
+        }
     }
 </style>

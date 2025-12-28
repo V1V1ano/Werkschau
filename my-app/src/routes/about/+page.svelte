@@ -56,10 +56,18 @@
           headline="Bachelor in Potsdam, at FH;P (hopefully)"
           buttonLabel="Click to Shuffle my Discoveries"
           items={[
-            "Didn’t like pizza before. Now, I like it (most of the times I guess)",
-            "Learned to trust iteration over the ‘perfect idea’.",
-            "Discovered: writing is also interface design.",
-            "Got better at saying no to shiny features (sometimes).",
+            "Design is an attitude that I must regularly evaluate, adapt, verify, and falsify.",
+            "Design and my own personality are intertwined; convictions are brought into the equation; and discarded. My designs reflect my convictions and interests while maintaining professional distance.",
+            "Design is both a collaborative process and a competitive arena. My only option is to treat it as an opportunity for growth.",
+            "Friendships are never static; they are always in a state of flux and must not be taken for granted. However, with effort and time, it is possible to maintain them across continental borders.",
+            "If you're in Potsdam, you should try a fish sandwich from the vendor at Nauener Tor market. It's better than in Hamburg! (Apart from Fabio's Fischhütte.) ",
+            "Design is an eternal negotiation between inspiration and creation. The concept of authorship is a difficult one, but one that is worth discussing.",
+            "I now think that pizza isn't such bad food after all, at least most of the time. Especially when you're sitting at PiPaSa at 3am.",
+            "I have learned to stand up for my position as a woman in interface design, to recognize our underrepresentation and to oppose it. And to be able to see this disadvantage but also see other privileges that I have.",
+            "The third semester was the best, when I was in the student council, when we came up with a new event every week, when I met so many of my friends, and when I briefly thought that the university belonged to us.",
+            "In Taiwan, I learnt that the best dumplings are usually found in the most unappealing restaurants; queuing for the MRT is much quicker than everyone rushing in at once (why Germany?); and that life is good if you hike up a mountain once a week.",
+            "The sound in the Columbia Hall isn't that bad after all cc Jacky.",
+            "I appreciate the geeky and childish sides of people the most. Embracing my own has brought me closer to myself and to many of my friends."
           ]}
         />
       </div>
