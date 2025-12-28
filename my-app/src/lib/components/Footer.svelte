@@ -57,8 +57,8 @@
             <div class="row">
                 <div class="table-label">Must haves</div>
                 <div class="value stack">
-                    <ButtonSmall href="/" type="internal"
-                        >Legal Notice</ButtonSmall
+                    <ButtonSmall href="/imprint" type="internal"
+                        >Imprint</ButtonSmall
                     >
                     <ButtonSmall href="/about" type="internal"
                         >Privacy</ButtonSmall

@@ -45,7 +45,7 @@
         chapter="responsive illustrations"
         caption="A selection of responsive illustrations used in articles"
         imageSrc="/project-images/ZEIT/responsiveIllustrationen.gif"
-        quote="Mobile traffic market share is the largest in November 2025 with 67.5% of all Mobile traffic"
+        quote="Mobile traffic market share is the largest in November 2025 with 67.5% [...]."
         quoteSource="similar web. (2025). Mobile vs. Desktop vs. Tablet Traffic Market Share"
         body="Articles in ZEIT regularly feature explanatory illustrations. Since their target audience accesses these articles on a wide variety of devices, illustrations must be prepared for every use case. Therefore, I created infographic elements in dark mode, light mode, for mobile and desktop. And that's for a wide variety of topics: from mitochondrial replacement therapy to attacks on Iran."
     />
