@@ -63,7 +63,6 @@
                     context="Internship DIE ZEIT"
                     year="2025"
                     mediaType="video"
-                    posterSrc="https://img.freepik.com/vektoren-kostenlos/einfaches-vibrierendes-katzenquadrat-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80"
                     videoSrcWebm="/project-images/ZEIT/proteine.webm"
                 />
             </div>

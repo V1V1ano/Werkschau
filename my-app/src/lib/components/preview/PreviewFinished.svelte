@@ -8,32 +8,44 @@
   export let mediaSrc: string = "";
 
   export let videoSrcWebm: string = "";
-  export let posterSrc: string = "";
+  // export let posterSrc: string = "";
 
-  let hover = false;
-  let isMobilePlayback = false;
+  // let hover = false;
+  // let isMobilePlayback = false;
 
-  function updatePlaybackMode() {
-    isMobilePlayback = window.matchMedia("(hover: none)").matches;
-  }
+  // function updatePlaybackMode() {
+  //   isMobilePlayback = window.matchMedia("(hover: none)").matches;
+  // }
 
-  import { onMount } from "svelte";
-  onMount(() => {
-    updatePlaybackMode();
-    window.addEventListener("resize", updatePlaybackMode);
-    return () => window.removeEventListener("resize", updatePlaybackMode);
-  });
+  // import { onMount } from "svelte";
+  // onMount(() => {
+  //   updatePlaybackMode();
+  //   window.addEventListener("resize", updatePlaybackMode);
+  //   return () => window.removeEventListener("resize", updatePlaybackMode);
+  // });
 </script>
 
+<!--
 <a
   class="preview"
   href={href}
   on:mouseenter={() => (hover = true)}
   on:mouseleave={() => (hover = false)}
 >
+-->
+<a class="preview" href={href}>
   <div class="image-wrap">
     {#if mediaType === "image"}
       <img class="image" src={mediaSrc} loading="lazy" />
+    {:else}
+      <video class="image" muted autoplay loop playsinline preload="metadata">
+        <source src={videoSrcWebm} type="video/webm" />
+      </video>
+    {/if}
+
+    <!--
+    OLD LOGIC (kept for later):
+
     {:else if isMobilePlayback}
       <video class="image" muted autoplay loop playsinline preload="metadata">
         <source src={videoSrcWebm} type="video/webm" />
@@ -47,7 +59,8 @@
         <img class="image" src={posterSrc} loading="lazy" />
       {/if}
     {/if}
-
+    -->
+    
     <!-- clickable hint arrow -->
     <span class="click-arrow" aria-hidden="true">→ → →</span>
   </div>
