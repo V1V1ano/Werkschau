@@ -113,7 +113,7 @@
                 <PreviewFinished
                     href="/about"
                     title="Co-op.Comm "
-                    context="studies"
+                    context="Studies"
                     year="2023"
                     mediaType="image"
                     mediaSrc="/project-images/CoopComm/teaser.gif"
@@ -122,9 +122,9 @@
             <div class="in-chapter">
                 <KeyArea variant="speculative" />
                 <PreviewFinished
-                    href="/about"
+                    href="/projects/phygital"
                     title="From Phygital Layers to Fragmented Realities"
-                    context="studies"
+                    context="Studies"
                     year="2023/24"
                     mediaType="image"
                     mediaSrc="/project-images/Phygital/teaser.png"
@@ -135,7 +135,7 @@
                 <PreviewFinished
                     href="/about"
                     title="The City as a Reading Room"
-                    context="studies"
+                    context="Studies"
                     year="2024"
                     mediaType="image"
                     mediaSrc="/project-images/ReadingRooms/big_picture.png"
