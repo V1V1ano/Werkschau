@@ -78,7 +78,7 @@
     position: absolute;
     top: 12px;
     left: 12px;
-    padding: 4px 10px;
+    padding: 4px 10px 2px 10px;
     background-color: rgba(255, 255, 255, 0.6);
     border: 1px solid var(--color-primary);
   }

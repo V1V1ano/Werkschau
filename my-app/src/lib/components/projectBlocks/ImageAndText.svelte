@@ -24,14 +24,16 @@
     <ProjectImage src={imageSrc} {label} {credit} {caption} />
     <div class="text-wrap">
         <Introduction {chapter} />
-        <ProjectText
-            {body}
-            {highlight}
-            {quote}
-            {quoteSource}
-            {linkLabel}
-            {linkHref}
-        />
+        <div class="inner-text-wrap">
+            <ProjectText
+                {body}
+                {highlight}
+                {quote}
+                {quoteSource}
+                {linkLabel}
+                {linkHref}
+            />
+        </div>
     </div>
 </div>
 
@@ -48,6 +50,12 @@
         gap: 12px;
     }
 
+    .inner-text-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
     @media (min-width: 900px) {
         .image-and-text {
             display: grid;
@@ -56,7 +64,7 @@
             gap: 118px;
         }
 
-        .text-wrap {
+        .inner-text-wrap {
             margin-right: 6rem;
         }
     }
