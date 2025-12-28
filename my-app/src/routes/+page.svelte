@@ -58,7 +58,7 @@
             <div class="in-chapter">
                 <KeyArea variant="narratives" />
                 <PreviewFinished
-                    href="/projects/phygital"
+                    href="/projects/zeit"
                     title="Data visualization for the news"
                     context="Internship DIE ZEIT"
                     year="2025"
@@ -70,7 +70,7 @@
             <div class="in-chapter">
                 <KeyArea variant="conceptual" />
                 <PreviewFinished
-                    href="/about"
+                    href="/projects/proLanes"
                     title="ProLanes • Order to Cash"
                     context="Studies"
                     year="2023/24"
@@ -111,7 +111,7 @@
             <div class="in-chapter">
                 <KeyArea variant="conceptual" />
                 <PreviewFinished
-                    href="/about"
+                    href="/projects/coopComm"
                     title="Co-op.Comm "
                     context="Studies"
                     year="2023"
@@ -133,7 +133,7 @@
             <div class="in-chapter">
                 <KeyArea variant="narratives" />
                 <PreviewFinished
-                    href="/about"
+                    href="/projects/readingRoom"
                     title="The City as a Reading Room"
                     context="Studies"
                     year="2024"

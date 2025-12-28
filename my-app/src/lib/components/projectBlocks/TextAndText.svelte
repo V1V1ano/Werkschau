@@ -25,6 +25,7 @@
   <Introduction {chapter} />
 
   <div class="text-wrap">
+    <div class="left-text">
     <ProjectText
       body={leftBody}
       highlight={leftHighlight}
@@ -33,15 +34,18 @@
       linkLabel={leftLinkLabel}
       linkHref={leftLinkHref}
     />
+    </div>
 
-    <ProjectText
-      body={rightBody}
-      highlight={rightHighlight}
-      quote={rightQuote}
-      quoteSource={rightQuoteSource}
-      linkLabel={rightLinkLabel}
-      linkHref={rightLinkHref}
-    />
+    <div class="right-text">
+      <ProjectText
+        body={rightBody}
+        highlight={rightHighlight}
+        quote={rightQuote}
+        quoteSource={rightQuoteSource}
+        linkLabel={rightLinkLabel}
+        linkHref={rightLinkHref}
+      />
+    </div>
   </div>
 </div>
 
@@ -58,12 +62,33 @@
     gap: 12px;
   }
 
+  /* Left and right text mimic wrap to ensure gaps are stable */
+  .right-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .left-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
   @media (min-width: 900px) {
     .text-wrap {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       align-items: start;
-      gap: 118px;
+      gap: 28px;
+    }
+
+    .right-text {
+        margin-right: 6rem;
+    }
+
+    .left-text {
+        margin-right: 6rem;
     }
   }
 </style>

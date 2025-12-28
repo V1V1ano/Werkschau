@@ -27,15 +27,15 @@
     />
 
     <ImageAndText
-        imageSrc="/project-images/Phygital/power_of_space.gif"
+        imageSrc="https://i.pinimg.com/originals/2e/bb/01/2ebb017eb0feb6824440d3135713b002.jpg"
         body={[
             "Imagine a world a few decades from now where smartphones are a relict of the past and technology has become deeply immersive. Digital elements merge with physical experiences, altering how reality is perceived and understood. We call these enhancements phygital layers. We call this environment a phygital one.",
             "This project explores how such technology reshapes communication and relationships. As individuals curate their own phygital layers, their realities become increasingly hyper-individual, which affects their perception and social interaction. Through a speculative narrative, the project highlights how beliefs and technological dependency emerge in personal, public and sensitive spaces. It asks questions about reality, responsibility, and communication.",
         ]}
         chapter="Project summary"
-        linkHref="https://youtu.be/WFTv71C_aUY?si=TAwIIzB-r0vZ4YKi"
+        linkHref="https://www.youtube.com/watch?v=FCa8ZMvG0qM"
         linkLabel="video documentation"
-        caption="Sensory altering techniques react to events and embed widgets in space"
+        caption="Spaces restrict and enable technology"
     />
 
     <TextAndText
@@ -46,10 +46,10 @@
     />
 
     <ImageAndImage
-        leftSrc="/project-images/Phygital/future_wheel.png"
+        leftSrc="https://wallpapers-clan.com/wp-content/uploads/2023/12/jujutsu-kaisen-grimacing-satoru-gojo-wallpaper-scaled.jpg"
         leftLabel="futures wheel"
         leftCaption="The Futures Wheel is an explorative method used to structure and visualize direct and indirect effects of changes."
-        rightSrc="/project-images/Phygital/relations.gif"
+        rightSrc="https://wallpapers.com/images/featured/gojo-satoru-pictures-8sz62hlsg1epni6l.jpg"
         rightCaption="Different stakeholders rely on omnipresent sensory-altering techniques in different ways."
     />
 
@@ -60,9 +60,9 @@
     />
 
     <ImageAndImage
-        leftSrc="/project-images/Phygital/spaces.png"
+        leftSrc="https://images.cgames.de/images/gsgp/290/jujutsu-kaisen-gojo-satoru_6307704.jpg"
         leftCaption="In a phygital world, spaces are affected by, and affect, sensory-altering techniques."
-        rightSrc="/project-images/Phygital/example_scene.png"
+        rightSrc="https://static0.cbrimages.com/wordpress/wp-content/uploads/2023/05/jujutsu-kaisen-gojo-223.jpg?w=1200&h=628&fit=crop"
         rightCaption="One scene is experienced sharply differently among the individuals of the story."
     />
 

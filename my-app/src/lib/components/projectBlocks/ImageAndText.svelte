@@ -55,5 +55,9 @@
             align-items: start;
             gap: 118px;
         }
+
+        .text-wrap {
+            margin-right: 6rem;
+        }
     }
 </style>

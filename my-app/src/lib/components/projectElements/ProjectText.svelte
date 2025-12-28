@@ -31,20 +31,22 @@
     {/if}
 
     {#if body}
-        <div class="margin-wrapper">
-            {#if Array.isArray(body)}
-                {#each body as paragraph}
-                    <div class="body">{paragraph}</div>
-                {/each}
-            {:else}
-                <div class="body">{body}</div>
-            {/if}
-        </div>
+        <!-- <div class="margin-wrapper"> -->
+        {#if Array.isArray(body)}
+            {#each body as paragraph}
+                <div class="body">{paragraph}</div>
+            {/each}
+        {:else}
+            <div class="body">{body}</div>
+        {/if}
+        <!-- </div> -->
     {/if}
 
     {#if linkHref && linkLabel}
-        <div class="button-wrap">
-            <Button href={linkHref} type="external">{linkLabel}</Button>
+        <div class="margin-top-wrapper">
+            <div class="button-wrap">
+                <Button href={linkHref} type="external">{linkLabel}</Button>
+            </div>
         </div>
     {/if}
 </div>
@@ -61,6 +63,12 @@
         flex-direction: column;
         gap: 16px;
         margin-bottom: 32px;
+    }
+
+    .margin-top-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
     }
 
     .quote {
@@ -81,6 +89,10 @@
         }
 
         .margin-wrapper {
+            margin-bottom: 40px;
+        }
+
+        .margin-top-wrapper {
             margin-bottom: 40px;
         }
 
