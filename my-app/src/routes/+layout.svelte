@@ -42,9 +42,9 @@
 <style>
 	/* Page padding */
 	.page {
-		padding-bottom: 16px;
-		padding-left: 16px;
-		padding-right: 16px; /* mobile */
+		padding-bottom: 18px;
+		padding-left: 18px;
+		padding-right: 18px; /* mobile */
 	}
 
 	@media (min-width: 900px) {

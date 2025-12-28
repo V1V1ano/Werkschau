@@ -53,7 +53,7 @@ html, body {
 
 @font-face {
     font-family: 'ABC Diatype Body';
-    src: url("/fonts/ABCDiatype-Medium-Trial.woff22") format('woff2');
+    src: url("/fonts/ABCDiatype-Medium-Trial.woff2") format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -212,10 +212,10 @@ h1 {
         font-size: 64px;
     }
 
-    .chapter-intro {
+    /* .chapter-intro {
         font-size: 18px;
         line-height: 24px;
-    }
+    } */
 
     .project-headline {
         font-size: 48px;
@@ -223,12 +223,12 @@ h1 {
 
     .highlight-text {
         font-size: 26px;
-        line-height: 34px;
+        line-height: 35px;
     }
 
     .sub-headline {
         font-size: 28px;
-        line-height: 34px;
+        line-height: 38px;
     }
 
     .button-main {

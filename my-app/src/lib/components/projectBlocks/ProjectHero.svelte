@@ -154,5 +154,9 @@
             align-items: start;
             gap: 118px;
         }
+
+        .sub-headline {
+            margin-right: 4rem;
+        }
     }
 </style>

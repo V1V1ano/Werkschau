@@ -153,7 +153,7 @@
 
     <!-- Fun -->
     <div class="chapter">
-      <div class="chapter-intro">&#123; education &#125;</div>
+      <div class="chapter-intro">&#123; fun &#125;</div>
       <div class="in-chapter">
         <CardCV
           from="2021"
