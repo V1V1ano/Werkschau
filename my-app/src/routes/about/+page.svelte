@@ -12,10 +12,11 @@
   <!-- Top section text -->
   <div class="intro-grid">
     <div class="intro-image">
-      <img
-        src="/profile.jpg"
-        alt="Portrait of Vivien Serve"
-      />
+      <a
+        href="/projects/gojo"
+      >
+        <img src="/profile.jpg" alt="Portrait of Vivien Serve" />
+      </a>
     </div>
 
     <div class="chapter">
@@ -67,7 +68,7 @@
             "The third semester was the best, when I was in the student council, when we came up with a new event every week, when I met so many of my friends, and when I briefly thought that the university belonged to us.",
             "In Taiwan, I learnt that the best dumplings are usually found in the most unappealing restaurants; queuing for the MRT is much quicker than everyone rushing in at once (why Germany?); and that life is good if you hike up a mountain once a week.",
             "The sound in the Columbia Hall isn't that bad after all cc Jacky.",
-            "I appreciate the geeky and childish sides of people the most. Embracing my own has brought me closer to myself and to many of my friends."
+            "I appreciate the geeky and childish sides of people the most. Embracing my own has brought me closer to myself and to many of my friends.",
           ]}
         />
       </div>

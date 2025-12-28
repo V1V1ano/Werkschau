@@ -34,7 +34,7 @@
 
   @media (min-width: 900px) {
     .button-main {
-      padding: 10px 16px;          /* desktop */
+      padding: 8px 12px;          /* desktop */
       max-width: 480px;
       min-width: 350px;
     }
