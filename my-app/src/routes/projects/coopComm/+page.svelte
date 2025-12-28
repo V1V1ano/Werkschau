@@ -27,7 +27,7 @@
     />
 
     <ImageAndText
-        imageSrc="https://i.pinimg.com/originals/2e/bb/01/2ebb017eb0feb6824440d3135713b002.jpg"
+        imageSrc="/project-images/CoopComm/poster.jpeg"
         body={[
             "Ten cooperatives from Potsdam and Berlin opened their doors to share how they organize working together. Beyond formal legal structures, cooperatives reveal their strength in situational responses to economic and social challenges – shaped by open and diverse communication cultures.",
             "Co-op.comm makes these communication structures visible. It encodes communicational structures, rooms for communication, topic, members, and problems. It showcases the uniqueness of each organiation, questioning whether communication itself can function as an organizational chart. ",
@@ -48,9 +48,9 @@
         ]}
     />
      <ImageAndImage
-        leftSrc="https://images.cgames.de/images/gsgp/290/jujutsu-kaisen-gojo-satoru_6307704.jpg"
+        leftSrc="/project-images/CoopComm/Layer_of_communication.png"
         leftCaption="Layers of communication in a co-operative from base to surface"
-        rightSrc="https://static0.cbrimages.com/wordpress/wp-content/uploads/2023/05/jujutsu-kaisen-gojo-223.jpg?w=1200&h=628&fit=crop"
+        rightSrc="/project-images/CoopComm/coop.webm"
         rightCaption="each visual variable corresponds to one layer of communication"
     />
 
@@ -65,9 +65,9 @@
     />
 
      <ImageAndImage
-        leftSrc="https://wallpapers-clan.com/wp-content/uploads/2023/12/jujutsu-kaisen-grimacing-satoru-gojo-wallpaper-scaled.jpg"
+        leftSrc="/project-images/CoopComm/Monologue_View.png"
         leftLabel="monologue view"
-        rightSrc="https://wallpapers.com/images/featured/gojo-satoru-pictures-8sz62hlsg1epni6l.jpg"
+        rightSrc="/project-images/CoopComm/Dialogue_View.png"
         rightLabel="Dialogue view"
     />
    
