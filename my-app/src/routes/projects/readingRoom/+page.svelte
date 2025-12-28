@@ -60,9 +60,9 @@
     />
 
     <NextProjectTeaser
-        href="/about"
-        src="https://i.pinimg.com/736x/d0/82/31/d082311ac3b94b11708e0dc82793bc84.jpg"
-        tag="test"
+        href="/projects/zeit"
+        src="/project-images/ZEIT/ZEIT-flow.png"
+        tag="DIE ZEIT"
     />
 </div>
 
