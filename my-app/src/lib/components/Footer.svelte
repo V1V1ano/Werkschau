@@ -60,7 +60,7 @@
                     <ButtonSmall href="/imprint" type="internal"
                         >Imprint</ButtonSmall
                     >
-                    <ButtonSmall href="/about" type="internal"
+                    <ButtonSmall href="/privacy" type="internal"
                         >Privacy</ButtonSmall
                     >
                 </div>
