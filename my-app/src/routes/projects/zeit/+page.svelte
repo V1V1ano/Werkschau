@@ -8,68 +8,59 @@
 
 <div class="project">
     <ProjectHero
-        keyArea="speculative"
-        title="Phygital Layers to Fragmented Realities"
-        subtitle="Speculative culturality rooted in immersive phygital technologies"
-        scope="Research · Concept · Storytelling · Design ·  Video production"
-        tools="Figma · various AI tool"
-        collaborators={[
-            "Leonidas von Bothmer",
-            "Natalia Pawlik",
-            "IPPSO @ UCLAB",
-        ]}
-        context={["University", "w/ Prof. Boris Müller", "Markus Kreutzer"]}
-        year="2024/25"
-        linkHref="https://uclab.fh-potsdam.de/ippso/"
-        linkLabel="IPPSO Project"
-        mediaType="image"
-        mediaSrc="/project-images/Phygital/teaser.png"
+        keyArea="narratives"
+        title="Internship • DIE ZEIT "
+        subtitle="visualization for daily news"
+        scope="Research & Data Collection · Data Wrangling · UI & UX Design · Creation of Visual Assets"
+        tools="Figma · Svelte · QGIS · Datawrapper"
+        collaborators="DIE ZEIT"
+        context="internship"
+        year="2025"
+        mediaType="video"
+        videoSrcWebm="/project-images/ZEIT/proteine.webm"
+        linkLabel="My author profile"
+        linkHref="https://www.zeit.de/autoren/S/Vivien_Serve/index"
     />
 
     <ImageAndText
         imageSrc="https://i.pinimg.com/originals/2e/bb/01/2ebb017eb0feb6824440d3135713b002.jpg"
-        body={[
-            "Imagine a world a few decades from now where smartphones are a relict of the past and technology has become deeply immersive. Digital elements merge with physical experiences, altering how reality is perceived and understood. We call these enhancements phygital layers. We call this environment a phygital one.",
-            "This project explores how such technology reshapes communication and relationships. As individuals curate their own phygital layers, their realities become increasingly hyper-individual, which affects their perception and social interaction. Through a speculative narrative, the project highlights how beliefs and technological dependency emerge in personal, public and sensitive spaces. It asks questions about reality, responsibility, and communication.",
-        ]}
-        chapter="Project summary"
-        linkHref="https://www.youtube.com/watch?v=FCa8ZMvG0qM"
-        linkLabel="video documentation"
-        caption="Spaces restrict and enable technology"
+        body="During a six-month internship at ZEIT, my work focused on the intersection of journalism, design, and technology within the Data and Visualization Department. The core task was the design of interactive data articles that translated complex topics into accessible, mobile-first storytelling formats. Alongside developing interaction patterns and UI components beyond the existing corporate identity, the work included teaser visuals, editorial charts, interactive metrics, and graphic reviews. "
+        chapter="summary"
+        caption="A selection of feature images used for articles"
     />
 
     <TextAndText
-        chapter="research"
-        leftQuote="In an era marked by rapid technological advancements, democracies face unprecedented challenges that transcend political institutions and reach into the fabric of everyday life."
-        leftQuoteSource="Altshuler et al. (2025). IPPSO–Transdisciplinary Research on Legal, Public Policy, and Design Perspectives for Immersive Phygital Public Spaces in Smart Cities."
-        rightBody="To explore people’s emotional responses to phygital technology and the socio-economic structures that result from it, we employed future wheel techniques, system mapping, and other speculative storytelling methods. To address potential social conflicts, we experimented with multiple perspectives and characters, each with a different level of reliance on phygital software. We drew inspiration from current attitudes towards smartphones and social media. Rather than focusing on extremes, we believe the most interesting insights lie in the nuances."
+        chapter="interaction patterns"
+        leftBody="As a designer, I created new interaction patterns for exploring large data sets or adapted existing ones. While doing so, we experimented with a wide variety of interaction patterns, always adhering to the minimalist ZEIT design of UI components. One particularly interesting aspect was considering ways to help viewers navigate data sets, find themselves in them, and compare themselves with others."
     />
 
     <ImageAndImage
         leftSrc="https://wallpapers-clan.com/wp-content/uploads/2023/12/jujutsu-kaisen-grimacing-satoru-gojo-wallpaper-scaled.jpg"
-        leftLabel="futures wheel"
-        leftCaption="The Futures Wheel is an explorative method used to structure and visualize direct and indirect effects of changes."
+        leftLabel="swipe interaction"
         rightSrc="https://wallpapers.com/images/featured/gojo-satoru-pictures-8sz62hlsg1epni6l.jpg"
-        rightCaption="Different stakeholders rely on omnipresent sensory-altering techniques in different ways."
+        rightLabel="Quiz Mode"
     />
 
-    <TextAndText
-        chapter="realisation"
-        leftHighlight="Person-to-person relationships are shaped by hyper-individual realities arising from personal phygital layers and social norms embedded in the space. To demonstrate this ambiguity, the narrative unfolds across three spaces: the personal, the public and the sensitive."
-        rightBody="We expressed our thought process in a video which uses parallel points of view. Even though our focus lies on person-to-person relationships, intra-personal, and person-to-space relationships overlap. A group of four old classmates, differenting greatly in their use and reliance on sensory altering technique, meet again. They start in the personal space of one person, moving through the street, which is an open space, and approach a senstive space, a cemetery. Conversations as well as their behaviour in these spaces demonstrates their fragmentation and conflict in finding common ground."
+    <ImageAndText
+        chapter="responsive illustrations"
+        caption="A selection of responsive illustrations used in articles"
+        imageSrc="https://images.cgames.de/images/gsgp/290/jujutsu-kaisen-gojo-satoru_6307704.jpg"
+        quote="Mobile traffic market share is the largest in November 2025 with 67.5% of all Mobile traffic"
+        quoteSource="similar web. (2025). Mobile vs. Desktop vs. Tablet Traffic Market Share"
+        body="Articles in ZEIT regularly feature explanatory illustrations. Since their target audience accesses these articles on a wide variety of devices, illustrations must be prepared for every use case. Therefore, I created infographic elements in dark mode, light mode, for mobile and desktop. And that's for a wide variety of topics: from mitochondrial replacement therapy to attacks on Iran."
     />
 
-    <ImageAndImage
-        leftSrc="https://images.cgames.de/images/gsgp/290/jujutsu-kaisen-gojo-satoru_6307704.jpg"
-        leftCaption="In a phygital world, spaces are affected by, and affect, sensory-altering techniques."
-        rightSrc="https://static0.cbrimages.com/wordpress/wp-content/uploads/2023/05/jujutsu-kaisen-gojo-223.jpg?w=1200&h=628&fit=crop"
-        rightCaption="One scene is experienced sharply differently among the individuals of the story."
+    <ImageAndText
+        chapter="mobile-friendly data storytelling"
+        label="Project excerpt"
+        imageSrc="https://static0.cbrimages.com/wordpress/wp-content/uploads/2023/05/jujutsu-kaisen-gojo-223.jpg?w=1200&h=628&fit=crop"
+        body="Just as with illustrations, ZEIT articles focus on mobile-friendly data storytelling. This is particularly challenging when complex content and diverse interaction options should be conveyed. In this context, mobile first means not only reducing content to smaller screens, but also aligning narrative structures, interactions, and visual hierarchies from the beginning with shorter attention spans, vertical scrolling, and mobile intuitive usage. "
     />
 
     <TextAndText
         chapter="reflection"
-        leftHighlight="I want to help people imagine and critically reflect futures."
-        rightBody="This project aims to spark debate around the legal dimensions: What rights do we have as senders and recipients of information? Can intent ever be guaranteed in how a message is perceived? And can we define a moral compass today that accounts for diverse beliefs, ethics, and legal frameworks? Throwing questions into the future and pulling them back into the present proved to be one of the most interesting challenges for me as a designer."
+        leftHighlight="I want to communicate topics in an accessible way, beyond the power users."
+        rightBody="This internship offered me a wide range of learnings. Close collaboration with journalists and data specialists emphasized the importance of sensitivity, clarity, and responsibility when designing for a broad and diverse readership. Designing mobile-first data visualizations was both challenging and highly valuable, given that mobile devices are the primary way most readers engage with journalistic content. Working across a wide variety of topics and tools further deepened my understanding of how adaptable visual storytelling needs to be in a newsroom context – and beyond. "
     />
 
     <NextProjectTeaser

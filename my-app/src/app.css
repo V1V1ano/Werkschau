@@ -209,7 +209,7 @@ h1 {
 
     .button-small {
         font-size: 18px;
-        letter-spacing: 1px;
+        letter-spacing:0.4px;
     }
 
     .table-label{

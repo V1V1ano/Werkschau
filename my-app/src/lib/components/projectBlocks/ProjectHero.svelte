@@ -11,58 +11,30 @@
     export let collaborators: string | string[];
     export let context: string | string[];
     export let year: string | number;
-    export let linkHref: string = "";
-    export let linkLabel: string;
+    export let linkHref: string | null = null;
+    export let linkLabel: string | null = null;
 
     export let mediaType: "image" | "video" = "image";
     export let mediaSrc: string = "";
 
     export let videoSrcWebm: string = "";
-    export let posterSrc: string = "";
-
-    let hover = false;
-    let isMobilePlayback = false;
-
-    function updatePlaybackMode() {
-        isMobilePlayback = window.matchMedia("(hover: none)").matches;
-    }
-
-    import { onMount } from "svelte";
-    onMount(() => {
-        updatePlaybackMode();
-        window.addEventListener("resize", updatePlaybackMode);
-        return () => window.removeEventListener("resize", updatePlaybackMode);
-    });
 </script>
 
 <div class="hero">
     <div class="image-wrap">
         {#if mediaType === "image"}
             <img class="image" src={mediaSrc} loading="lazy" />
-        {:else if isMobilePlayback}
-            <video
-                class="image"
-                muted
-                autoplay
-                loop
-                playsinline
-                preload="metadata"
-            >
-                <source src={videoSrcWebm} type="video/webm" />
-            </video>
-        {:else if hover}
-            <video
-                class="image"
-                muted
-                autoplay
-                loop
-                playsinline
-                preload="metadata"
-            >
-                <source src={videoSrcWebm} type="video/webm" />
-            </video>
         {:else}
-            <img class="image" src={posterSrc} loading="lazy" />
+            <video
+                class="image"
+                muted
+                autoplay
+                loop
+                playsinline
+                preload="metadata"
+            >
+                <source src={videoSrcWebm} type="video/webm" />
+            </video>
         {/if}
     </div>
 
@@ -100,28 +72,32 @@
             </div>
             <div class="row">
                 <div class="table-label">Context</div>
-                <div class="table-value">{#if Array.isArray(context)}
+                <div class="table-value">
+                    {#if Array.isArray(context)}
                         {#each context as setting}
                             <div>{setting}</div>
                         {/each}
                     {:else}
                         {context}
-                    {/if}</div>
+                    {/if}
+                </div>
             </div>
             <div class="row">
                 <div class="table-label">year</div>
                 <div class="table-value">{year}</div>
             </div>
 
-            <div class="divider"></div>
-            <div class="row">
-                <div class="table-label">link</div>
-                <div class="table-value">
-                    <ButtonSmall href={linkHref} type="external"
-                        >{linkLabel}</ButtonSmall
-                    >
+            {#if linkHref}
+                <div class="divider"></div>
+                <div class="row">
+                    <div class="table-label">link</div>
+                    <div class="table-value">
+                        <ButtonSmall href={linkHref} type="external">
+                            {linkLabel}
+                        </ButtonSmall>
+                    </div>
                 </div>
-            </div>
+            {/if}
         </div>
     </div>
 </div>
