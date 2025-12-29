@@ -146,6 +146,16 @@ h1 {
     line-height: 1.2;
 }
 
+/* Sub-headline) */
+.sub-headline {
+    font-family: var(--font-headline);
+    color: var(--color-primary);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
 /* Highlight text (reading voice, but louder) */
 .highlight-text {
     font-family: var(--font-body);
@@ -153,15 +163,6 @@ h1 {
     font-weight: 500;
     font-size: 24px;
     line-height: 1.35;
-}
-
-/* Sub-headline) */
-.sub-headline {
-    font-family: var(--font-headline);
-    color: var(--color-primary);
-    font-size: 24px;
-    line-height: 32px;
-    line-height: 1.3;
 }
 
 /* Table elements */

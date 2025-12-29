@@ -42,6 +42,8 @@
         font-family: var(--font-headline);
         font-size: 18px;
         letter-spacing: 0.2px;
+        font-weight: 500;
+        font-style: italic;
     }
 
     @media (min-width: 900px) {
