@@ -151,8 +151,8 @@
           logoSrc="/logos/FHP.png"
         />
         <CardCV
-          from="2021"
-          to="NOW"
+          from="02/2024"
+          to="08/2024"
           title="Interaction Design"
           place="@ National Taipei University of Technology"
           logoSrc="/logos/taipei.png"
@@ -165,7 +165,7 @@
       <div class="chapter-intro">&#123; fun &#125;</div>
       <div class="in-chapter">
         <CardCV
-          from="2021"
+          from="2025"
           to="NOW"
           title="Mauzen Festival"
           place="w/ Garzelice e.V. (Founding member & deputy cash auditor)"

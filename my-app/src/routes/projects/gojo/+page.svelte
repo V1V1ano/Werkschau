@@ -47,7 +47,7 @@
         body="Gojo exemplifies an interesting (and, in my opinion, fantastic) phenomenon in JJK: the deliberate inclusion of content for the female gaze. This is even more impressive given that, as a shonen anime, it is typically aimed at young men. But women, as well as men in JJK, act in ways that are clearly fan service for women."
         linkHref="https://www.youtube.com/watch?v=vSpAIw7iEEM"
         linkLabel="Jujutsu Kaisen and the female gaze video"
-        quote="In a world ordered by sexual imbalance, pleasure in looking has been split between active male and passive/female. The determining male gaze projects its phantasy on to the female figure which is styled accordingly. In their tradifional exhibitionist role women are simultaneously looked at and displayed,with their appearance coded for strong visual and erotic impact"
+        quote="In a world ordered by sexual imbalance, pleasure in looking has been split between active male and passive/female. The determining male gaze projects its phantasy on to the female figure which is styled accordingly. In their traditional exhibitionist role women are simultaneously looked at and displayed, with their appearance coded for strong visual and erotic impact."
         quoteSource="Mulvey, L., & Pleasure, V. (1975). Narrative cinema'. Screen, 16(3), 6-18."
     />
 </div>
